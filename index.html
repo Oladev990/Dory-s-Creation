@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>DORY'S CREATION</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3010b1eaf1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- le header-->
+
+    <header>
+         <!-- Menu responsive-->
+ <div class="menu_toggle">
+<span></span>
+ </div>
+
+<div class="logo">
+
+    <p><span>DORY'S </span>CREATION</p>
+</div>
+<ul class="menu">
+<li><a href="#bijoux">Nos Produits</a></li>
+<li><a href="#services">Formation</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<button class="login_btn">S'inscrire</button>
+    </header>
+<!-- Section acceuil-->
+<section id="home">
+
+<div class="gauche">
+    <h1>Achetez vos <span>Bijoux</span> chez nous !</h1>
+<p>Profitez des offres spécials et faites le plein de bénéfices</p>
+<a href="#">Acheter maintenant</a>
+</div>
+
+
+<div class="droite">
+<img src="im.png">
+</div>
+
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+    <!-- Section produit-->
+
+    <section id="bijoux">
+     <h1 class="titre_section">Nos Produits</h1>
+<div class="images">
+<ul>
+<li class="bijou">
+<div>
+<img src="1.jpeg" alt="">
+</div>
+
+<span>Ensemble Courone royal</span>
+
+<span class="prix">
+    40.000 cfa</span>
+    <a href="#"> ACHETER MAINTENANT</a>
+
+</li>
+
+<li class="bijou">
+    <div>
+    <img src="2.webp" alt="" width="50px">
+   </div>
+    <span>Bracelet en Pierre</span>
+    
+    <span class="prix">
+        2.000 cfa</span>
+        <a href="#"> ACHETER MAINTENANT</a>
+    
+    </li>
+
+    <li class="bijou">
+        <div>
+        <img src="3.jpg" alt="">
+        </div>
+        
+        <span>Sac en Perle</span>
+        
+        <span class="prix">
+            3.000 cfa</span>
+            <a href="#"> ACHETER MAINTENANT</a>
+        
+        </li>
+
+        <li class="bijou">
+            <div>
+            <img src="4.jpg" alt="">
+        </div>
+            
+            <span>Collier en cauris</span>
+            
+            <span class="prix">
+                2.000 cfa</span>
+                <a href="#"> ACHETER MAINTENANT</a>
+            
+            </li>
+
+            <li class="bijou">
+                <div>
+                <img src="5.jpg" alt="">
+                </div>
+                <span>Collier en Cauris</span>
+                
+                <span class="prix">
+                    15.000 cfa</span>
+                    <a href="#"> ACHETER MAINTENANT</a>
+                
+                </li>
+
+                <li class="bijou">
+                    <div>
+                    <img src="6.webp" alt="">
+                    
+                    </div>
+                    <span>Collier en perle ( Emojie) </span>
+                    
+                    <span class="prix">
+                        2.000 cfa</span>
+                        <a href="#"> ACHETER MAINTENANT</a>
+                    
+                    </li>
+
+
+                    
+
+</ul>
+
+</div>
+
+    </section>
+
+    <!--section service--> 
+
+
+    <section id="services">
+
+<h1 class="titre_section"> Modules de Formations</h1>
+
+<div class="liste_services">
+<div class="service ">
+<i class="fa-solid fa-screwdriver-wrench"></i>
+
+<h3>Formation complète</h3>
+<p>Nous formons en deux catégories de modules de module de formations à savoir: Les formations complètes, et les modules secondaires</p>
+<a href="#">Lire plus</a>
+</div>
+
+<div class="service ">
+    <i class="fa-solid fa-screwdriver-wrench"></i>
+    
+    <h3>Formation en fabrication de Sac</h3>
+    <p>Nous formons en deux catégories de modules de module de formations à savoir: Les formations complètes, et les modules secondaires</p>
+    <a href="#">Lire plus</a>
+    </div>
+
+    <div class="service ">
+        <i class="fa-solid fa-screwdriver-wrench"></i>
+        
+        <h3>Formation en fabrication de Bijou</h3>
+        <p>Nous formons en deux catégories de modules de module de formations à savoir: Les formations complètes, et les modules secondaires</p>
+        <a href="#">Lire plus</a>
+        </div>
+</div>
+
+    </section>
+    
+    <!--section contact--> 
+
+    <section id="contact">
+        <h1 class="titre_section"> Nous Contacter</h1>
+<di class="localisation_contact_div">
+<div class="localisation">
+    <h3>Notre adresse</h3>
+<img src="e.jpg" alt="">
+
+
+</div>
+<div class="form_contact">
+    <h3>Envoyer un message</h3>
+    <form action="#">
+        <input type="text"placeholder="Nom ">
+        <input type="email"placeholder="adresse Mail ">
+        <input type="text"placeholder="Objet">
+        <textarea name="" id="" cols="30" rows="10"placeholder="Message"></textarea>
+        <input type="submit"value="Envoyer">
+    </form>
+</div>
+</div>
+    </section>
+    
+    <footer>
+        <p> Olatoundji ATTALIGBO Copyright 2023 </p>
+    </footer>
+<script>
+// Menu responsive code js
+var menu_toggle = document.querySelector('.menu_toggle');
+var menu = document.querySelector('.menu');
+var menu_toggle_span = document.querySelector('.menu_toggle span');
+
+menu_toggle.onclick = function(){
+ menu_toggle.classList.toggle('active');
+ menu_toggle_span.classList.toggle('active');
+menu.classList.toggle('responsive');
+
+
+}
+
+</script>
+</body>
+</html>
