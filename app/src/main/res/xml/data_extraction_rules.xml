@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Inclure les préférences utilisateur -->
+        <include domain="sharedpref" path="." />
+        
+        <!-- Inclure la base de données locale -->
+        <include domain="database" path="." />
+        
+        <!-- Exclure les fichiers temporaires et cache -->
+        <exclude domain="file" path="cache/" />
+        <exclude domain="file" path="temp/" />
+        <exclude domain="file" path="images/" />
+        
+        <!-- Exclure les fichiers de logs -->
+        <exclude domain="file" path="logs/" />
+    </cloud-backup>
+    
+    <device-transfer>
+        <!-- Inclure les préférences utilisateur -->
+        <include domain="sharedpref" path="." />
+        
+        <!-- Inclure la base de données locale -->
+        <include domain="database" path="." />
+        
+        <!-- Exclure les fichiers temporaires et cache -->
+        <exclude domain="file" path="cache/" />
+        <exclude domain="file" path="temp/" />
+        <exclude domain="file" path="images/" />
+        
+        <!-- Exclure les fichiers de logs -->
+        <exclude domain="file" path="logs/" />
+    </device-transfer>
+</data-extraction-rules>

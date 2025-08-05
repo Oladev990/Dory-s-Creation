@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Couleurs principales de l'application Friendly -->
+    <color name="primary">#FF6B9D</color>
+    <color name="primary_dark">#E55A8A</color>
+    <color name="primary_light">#FF8FB1</color>
+    
+    <!-- Couleurs secondaires -->
+    <color name="secondary">#4ECDC4</color>
+    <color name="secondary_dark">#45B7AF</color>
+    <color name="secondary_light">#6ED7CF</color>
+    
+    <!-- Couleurs d'accent -->
+    <color name="accent">#FFD93D</color>
+    <color name="accent_dark">#FFC107</color>
+    
+    <!-- Couleurs de fond -->
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#F8F9FA</color>
+    <color name="surface_dark">#E9ECEF</color>
+    
+    <!-- Couleurs de texte -->
+    <color name="text_primary">#212529</color>
+    <color name="text_secondary">#6C757D</color>
+    <color name="text_hint">#ADB5BD</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_secondary">#FFFFFF</color>
+    
+    <!-- Couleurs d'état -->
+    <color name="success">#28A745</color>
+    <color name="warning">#FFC107</color>
+    <color name="error">#DC3545</color>
+    <color name="info">#17A2B8</color>
+    
+    <!-- Couleurs pour les jeux -->
+    <color name="game_x">#FF6B9D</color>
+    <color name="game_o">#4ECDC4</color>
+    <color name="game_board">#F8F9FA</color>
+    <color name="game_line">#DEE2E6</color>
+    
+    <!-- Couleurs pour les messages -->
+    <color name="message_sent">#FF6B9D</color>
+    <color name="message_received">#E9ECEF</color>
+    <color name="message_text_sent">#FFFFFF</color>
+    <color name="message_text_received">#212529</color>
+    
+    <!-- Couleurs pour les notifications -->
+    <color name="notification_color">#FF6B9D</color>
+    <color name="notification_background">#FFFFFF</color>
+    
+    <!-- Couleurs pour les statuts -->
+    <color name="online_status">#28A745</color>
+    <color name="offline_status">#6C757D</color>
+    <color name="away_status">#FFC107</color>
+    
+    <!-- Couleurs pour les gradients -->
+    <color name="gradient_start">#FF6B9D</color>
+    <color name="gradient_end">#4ECDC4</color>
+    
+    <!-- Couleurs pour les ombres -->
+    <color name="shadow">#000000</color>
+    <color name="shadow_light">#1A000000</color>
+    
+    <!-- Couleurs pour les icônes -->
+    <color name="icon_primary">#FF6B9D</color>
+    <color name="icon_secondary">#4ECDC4</color>
+    <color name="icon_inactive">#ADB5BD</color>
+    
+    <!-- Couleurs pour les boutons -->
+    <color name="button_primary">#FF6B9D</color>
+    <color name="button_secondary">#4ECDC4</color>
+    <color name="button_disabled">#E9ECEF</color>
+    <color name="button_text_primary">#FFFFFF</color>
+    <color name="button_text_secondary">#FFFFFF</color>
+    <color name="button_text_disabled">#ADB5BD</color>
+</resources>
