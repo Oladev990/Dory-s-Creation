@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Dossier pour les images temporaires -->
+    <external-files-path name="images" path="images/" />
+    
+    <!-- Dossier pour les photos de profil -->
+    <external-files-path name="profile_photos" path="profile_photos/" />
+    
+    <!-- Dossier pour les images de chat -->
+    <external-files-path name="chat_images" path="chat_images/" />
+    
+    <!-- Cache pour les images -->
+    <external-cache-path name="cache" path="." />
+    
+    <!-- Dossier public pour les images -->
+    <external-path name="external" path="." />
+</paths>
