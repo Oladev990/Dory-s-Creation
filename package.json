@@ -9,7 +9,14 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "postinstall": "npx pod-install"
+    "postinstall": "npx pod-install",
+    "setup-and-build": "chmod +x setup-and-build.sh && ./setup-and-build.sh",
+    "build:apk": "chmod +x build-apk.sh && ./build-apk.sh",
+    "build:apk:windows": "build-apk.bat",
+    "build:android-debug": "cd android && ./gradlew assembleDebug",
+    "build:android-release": "cd android && ./gradlew assembleRelease",
+    "clean:android": "cd android && ./gradlew clean",
+    "install:apk": "adb install ChatApp-v1.0.0-debug.apk"
   },
   "dependencies": {
     "react": "18.2.0",
@@ -41,6 +48,8 @@
     "react-native-vector-icons": "^10.0.0",
     "@react-native-async-storage/async-storage": "^1.19.3",
     "react-native-gifted-chat": "^2.4.0",
+    "@react-native-google-signin/google-signin": "^10.0.1",
+    "babel-plugin-module-resolver": "^5.0.0",
     "date-fns": "^2.30.0"
   },
   "devDependencies": {
